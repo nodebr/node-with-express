@@ -10,6 +10,9 @@ app.set('views', __dirname + '/views');
 
 app.use(express.static(__dirname + '/static'));
 
+
+app.use('/js', express.static(__dirname + '/static/javascript'));
+
 app.get('/', function(req, res){
     res.render('index');
 });
