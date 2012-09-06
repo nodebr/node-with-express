@@ -1,0 +1,12 @@
+{ "name": "server-web",
+  "version": "0.4.0",
+  "description": " Servidor http",
+  "contributors": [ {
+    "name": "Onezino Gabriel Moreira",
+    "email": "heat2k4@hotmail.com" } ],
+  "keywords": [ "cli", "http", "server" ],
+  "dependencies" : {
+    "express" : "3.x",
+    "consolidate" : "0.4.x",
+    "swig": "0.12.x" }
+}
